@@ -4,7 +4,7 @@ let findEmptyInList = function (list) {
 };
 
 export default {
-  name: "Browser",
+  name: "Inline Magic Appstore",
   description: "Search the internet.",
   ver: 1, // Compatible with core v1
   type: "process",
@@ -12,7 +12,7 @@ export default {
     let wrapper; // Lib.html | undefined
     let MyWindow;
 
-    console.log("Browser Loading...");
+    console.log("Inline Magic Appstore Loading...");
 
     Root.Lib.setOnEnd((_) => MyWindow.close());
 
@@ -194,7 +194,7 @@ export default {
         });
         new Root.Lib.html("iframe")
           .attr({
-            src: `//${location.host}/assets/browserhp.html`,
+            src: `https://msha.ke/shadesoftware`,
           })
           .class("fg", "page-" + selectedTab)
           .on("load", async (e) => {
@@ -338,7 +338,7 @@ export default {
         // there's a good reason i did this, it's called browser compatibility
         // style:
         //   "width:-webkit-fill-available;width:-moz-fill-available;height:-webkit-fill-available;height:-moz-fill-available;",
-        src: `//${location.host}/assets/browserhp.html`,
+        src: `https://msha.ke/shadesoftware`,
       })
       .class("fg", "page-1")
       .appendTo(pages);

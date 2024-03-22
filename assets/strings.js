@@ -76,7 +76,7 @@ export default {
     systemApp_Notepad: "Notepad",
     systemApp_DevEnv: "DevEnv",
     systemApp_ImageViewer: "Image Viewer",
-    systemApp_Browser: "Browser",
+    systemApp_Browser: "Inline Magic Appstore",
     systemApp_Weather: "Weather",
     systemApp_Terminal: "Terminal",
     systemApp_Calculator: "Calculator",
