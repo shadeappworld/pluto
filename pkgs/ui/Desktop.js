@@ -697,8 +697,8 @@ export default {
             "Exit this session",
           ];
           const versions = [
-            "What version of Pluto is this?",
-            "What Pluto version am I running?",
+            "What version of ShadeOS is this?",
+            "What ShadeOS version am I running?",
           ];
 
           function makeQuestionButton(text) {

@@ -1243,12 +1243,12 @@
   <body>
     <div class="markdown-body">
       <div class="version-info">
-        <h6 dir="auto">Generated with <code class="notranslate">pluto-docs</code> running on node v18.19.0.</h6>
+        <h6 dir="auto">Generated with <code class="notranslate">ShadeOS-docs</code> running on node v18.19.0.</h6>
         <hr />
       </div>
       <div class="content"><h1 dir="auto">Pluto Documentation for version 1.5 (Elysium)</h1>
 <ul dir="auto">
-<li><a href="#pluto-documentation-for-version-15-elysium">Pluto Documentation for version 1.5 (Elysium)</a>
+<li><a href="#pluto-documentation-for-version-15-elysium">ShadeOS Documentation for version 1.5 (Elysium)</a>
 <ul dir="auto">
 <li><a href="#links-to-other-useful-documentation">Links to other useful documentation</a></li>
 <li><a href="#how-to-initialize-an-application">How to initialize an application</a>
@@ -1284,7 +1284,7 @@
 </ul>
 </li>
 </ul>
-<p dir="auto">This documentation will help you understand how to make apps for Pluto, and include the API reference.</p>
+<p dir="auto">This documentation will help you understand how to make apps for ShadeOS, and include the API reference.</p>
 <p dir="auto">This guide may change often, so to help you in making applications, use the latest documentation for your version.</p>
 <h2 dir="auto">Links to other useful documentation</h2>
 <p dir="auto">There are some other docs in this folder that may be useful.</p>
@@ -1490,7 +1490,7 @@ As an app developer you need to adapt your application to every limitation becau
 <p dir="auto">Here's an example of it in use in an app:</p>
 <div class="highlight highlight-source-js" dir="auto"><pre class="notranslate"><span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-kos">{</span>
   <span class="pl-c1">name</span>: <span class="pl-s">"Spacedesktop"</span><span class="pl-kos">,</span>
-  <span class="pl-c1">description</span>: <span class="pl-s">"A desktop replacement for Pluto"</span><span class="pl-kos">,</span>
+  <span class="pl-c1">description</span>: <span class="pl-s">"A desktop replacement for ShadeOS"</span><span class="pl-kos">,</span>
   <span class="pl-c1">ver</span>: <span class="pl-c1">1</span><span class="pl-kos">,</span> <span class="pl-c">// Compatible with core v1</span>
   <span class="pl-c1">type</span>: <span class="pl-s">"process"</span><span class="pl-kos">,</span>
   <span class="pl-c1">optInToEvents</span>: <span class="pl-c1">true</span><span class="pl-kos">,</span> <span class="pl-c">// &lt;-- Opt in to events</span>
@@ -1534,7 +1534,7 @@ As an app developer you need to adapt your application to every limitation becau
 <p dir="auto">You can also import Html from datkat21's source using unpkg:</p>
 <div class="highlight highlight-source-js" dir="auto"><pre class="notranslate"><span class="pl-k">const</span> <span class="pl-v">Html</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-k">await</span> <span class="pl-k">import</span><span class="pl-kos">(</span><span class="pl-s">"https://unpkg.com/@datkat21/html"</span><span class="pl-kos">)</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-c1">default</span><span class="pl-kos">;</span></pre></div>
 <p dir="auto">This is recommended if you want to use the latest features of Html (e.g. prepend, prependMany, prependTo).<br>
-This will ensure the Html library is always up to date, no matter the version of Pluto the app is running on.</p>
+This will ensure the Html library is always up to date, no matter the version of ShadeOS the app is running on.</p>
 <h3 dir="auto">Examples</h3>
 <p dir="auto">For example, I'll show how some layouts can be created in HTML vs the Html class:</p>
 <div class="highlight highlight-text-html-basic" dir="auto"><pre class="notranslate"><span class="pl-kos">&lt;</span><span class="pl-ent">div</span> <span class="pl-c1">class</span>="<span class="pl-s">card</span>"<span class="pl-kos">&gt;</span>
@@ -1564,7 +1564,7 @@ This will ensure the Html library is always up to date, no matter the version of
 <span class="pl-kos">&lt;/</span><span class="pl-ent">body</span><span class="pl-kos">&gt;</span></pre></div>
 <h3 dir="auto">Methods</h3>
 <p dir="auto">There are a few more advanced methods to how the Html class works:</p>
-<p dir="auto"><strong>Note: Some methods may not be available in older versions of Pluto, and some methods may not work unless you use the <a href="#html-library">latest version of Html</a>.</strong></p>
+<p dir="auto"><strong>Note: Some methods may not be available in older versions of ShadeOS, and some methods may not work unless you use the <a href="#html-library">latest version of Html</a>.</strong></p>
 <ul dir="auto">
 <li>
 <p dir="auto"><code class="notranslate">.style()</code><br>

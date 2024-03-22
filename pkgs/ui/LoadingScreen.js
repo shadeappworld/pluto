@@ -13,7 +13,7 @@ export default {
     loader: function (il = null) {
       const x = new lib.html("div")
         .html(
-          '<div class="logo">pluto<span class="small-label superscript">indev</span></div><span>loading...</span>'
+          '<div class="logo">Shade<span class="small-label superscript">OS</span></div><span>loading...</span>'
         )
         .class("loading-screen")
         .appendTo("body");

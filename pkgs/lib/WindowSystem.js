@@ -41,7 +41,7 @@ function getSnapIndicator() {
 export default {
   name: "Window System",
   description:
-    "This is the base window system for Pluto. This library includes function to create and destroy windows.",
+    "This is the base window system for ShadeOS. This library includes function to create and destroy windows.",
   ver: 1, // Compatible with core v1
   type: "library",
   init: function (l, c) {

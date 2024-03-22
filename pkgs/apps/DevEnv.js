@@ -1,6 +1,6 @@
 export default {
   name: "DevEnv",
-  description: "Develop applications for Pluto smoothly in your browser.",
+  description: "Develop applications for ShadeOS smoothly in your browser.",
   privileges: [
     {
       privilege: "startPkg",
@@ -16,7 +16,7 @@ export default {
       action_aceSettings: "Ace Editor Settings",
       action_showAutocomplete: "Show Autocomplete",
       appHelp_string1:
-        "Welcome to DevEnv. This is a developer environment for developing Pluto apps.",
+        "Welcome to DevEnv. This is a developer environment for developing ShadeOS apps.",
       appHelp_string2:
         "You can use the buttons on the sidebar to perform different actions in the app.\nThere is also a set of keyboard shortcuts.",
       appHelp_string3: "Would you like to learn about the keyboard shortcuts?",
@@ -40,7 +40,7 @@ export default {
       action_format: "Format Code",
       action_runApp: "Run App",
       appHelp_string1:
-        "Welcome to DevEnv, a developer environment for developing Pluto apps.",
+        "Welcome to DevEnv, a developer environment for developing ShadeOS apps.",
       appHelp_string2:
         "You can use the sidebar items to perform different actions in the app.\nThere is also a useful set of keyboard shortcuts.",
       appHelp_string3: "Would you like to learn about the keyboard shortcuts?",
@@ -52,7 +52,7 @@ export default {
       action_format: "Verschönern Sie Ihren Code",
       action_runApp: "App ausführen",
       appHelp_string1:
-        "Willkommen in DevEnv, einer Entwicklerumgebung für die Entwicklung von Pluto-Apps.",
+        "Willkommen in DevEnv, einer Entwicklerumgebung für die Entwicklung von ShadeOS-Apps.",
       appHelp_string2:
         "Sie können die Seitenleistenelemente verwenden, um in der App unterschiedliche Aktionen auszuführen.\nEs gibt auch eine Reihe nützlicher Tastaturkürzel.",
       appHelp_string3: "Möchten Sie mehr über Tastaturkürzel erfahren?",
@@ -64,7 +64,7 @@ export default {
       action_format: "Embellece tu código",
       action_runApp: "Ejecutar la aplicación",
       appHelp_string1:
-        "Bienvenido a DevPEnv, un entorno de desarrollador para desarrollar aplicaciones Pluto.",
+        "Bienvenido a DevPEnv, un entorno de desarrollador para desarrollar aplicaciones ShadeOS.",
       appHelp_string2:
         "Puede usar los elementos de la barra lateral para realizar diferentes acciones en la aplicación.\nTambién hay un útil conjunto de atajos de teclado.",
       appHelp_string3: "¿Le gustaría aprender sobre los atajos de teclado?",
@@ -76,7 +76,7 @@ export default {
       action_format: "Embelezar seu código",
       action_runApp: "Executar aplicativo",
       appHelp_string1:
-        "Bem-vindo ao DevEnv, um ambiente de desenvolvedor para o desenvolvimento de aplicativos Pluto.",
+        "Bem-vindo ao DevEnv, um ambiente de desenvolvedor para o desenvolvimento de aplicativos ShadeOS.",
       appHelp_string2:
         "Você pode usar os itens da barra lateral para executar ações diferentes no aplicativo.\nHá também um conjunto útil de atalhos de teclado.",
       appHelp_string3: "Você gostaria de aprender sobre os atalhos do teclado?",
@@ -88,7 +88,7 @@ export default {
       action_format: "Pagandahin",
       action_runApp: "Buksan ang App",
       appHelp_string1:
-        "Maligayang pagdating sa DevEnv. Ito ay isang developer environment para gumawa ng aplikasyon sa Pluto.",
+        "Maligayang pagdating sa DevEnv. Ito ay isang developer environment para gumawa ng aplikasyon sa ShadeOS.",
       appHelp_string2:
         "Pwede mong gamitin ang mga buttons sa sidebar para mag-perform ng iba't ibang mga aksyon sa aplikasyon.\nMayroon itong iba't ibang keyboard shortcuts.",
       appHelp_string3:

@@ -1,6 +1,6 @@
-# Pluto v1.6
+# ShadeOS v1.6
 
-![Pluto banner](assets/images/banner.svg)
+![ShadeOS banner](assets/images/banner.svg)
 
 <div align="center">
   <img src="https://img.shields.io/github/stars/zeondev/pluto?style=for-the-badge" />

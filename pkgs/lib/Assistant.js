@@ -25,7 +25,7 @@ const verbs = [
     action: "version",
   },
   {
-    verb: "what version of pluto",
+    verb: "what version of ShadeOS",
     action: "version",
   },
   {
@@ -383,9 +383,9 @@ const howDoIWorks = [
 ];
 
 const youAreRunning = [
-  "You are running {plutoVersion} ({codeName}).",
-  "You're on version {plutoVersion}!",
-  "You are using Pluto version {plutoVersion}, codenamed {codeName}.",
+  "You are running {ShadeOSVersion} ({codeName}).",
+  "You're on version {ShadeOSVersion}!",
+  "You are using ShadeOS version {plutoVersion}, codenamed {codeName}.",
 ];
 
 function replace(str, u) {

@@ -13,7 +13,7 @@
   - [Animation](#animation)
   - [Color](#color)
 
-There are many CSS classes that are available in Pluto. Until all of them are documented, here are a lot of the utility ones that are commonly used:
+There are many CSS classes that are available in ShadeOS. Until all of them are documented, here are a lot of the utility ones that are commonly used:
 
 ## Layout
 

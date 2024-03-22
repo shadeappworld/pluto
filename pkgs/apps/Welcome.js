@@ -12,9 +12,9 @@ export default {
   strings: {
     en_US: {
       welcome_window_title: "Welcome",
-      welcome_page1_header: "Welcome to Pluto",
+      welcome_page1_header: "Welcome to ShadeOS",
       welcome_page1_body:
-        "Hey there! Welcome to Pluto, a new 'desktop environment' for the web.\n\nPress Next to enter setup.",
+        "Hey there! Welcome to ShadeOS, a new 'desktop environment' for the web.\n\nPress Next to enter setup.",
       welcome_page2_header: "Set your language",
       welcome_page2_body: "The current language is English (US).",
       welcome_page2_language_en_US: "English (US)",
@@ -31,9 +31,9 @@ export default {
     },
     en_GB: {
       welcome_window_title: "Welcome",
-      welcome_page1_header: "Welcome to Pluto",
+      welcome_page1_header: "Welcome to ShadeOS",
       welcome_page1_body:
-        "Hello! Welcome to Pluto, a new 'desktop environment' for the web.\n\nPress the Next button to enter the setup process.",
+        "Hello! Welcome to ShadeOS, a new 'desktop environment' for the web.\n\nPress the Next button to enter the setup process.",
       welcome_page2_header: "Set your language",
       welcome_page2_body: "The current language is English (UK).",
       welcome_page3_header: "Personalise",
@@ -44,9 +44,9 @@ export default {
     },
     de_DE: {
       welcome_window_title: "Willkommen",
-      welcome_page1_header: "Willkommen bei Pluto",
+      welcome_page1_header: "Willkommen bei ShadeOS",
       welcome_page1_body:
-        'Hallo! Wilkommen bei Pluto, einem neuem Desktop-environment für das Web.\n\nDrücken Sie "Nächste Seite" um die Einstellungen zu öffnen',
+        'Hallo! Wilkommen bei ShadeOS, einem neuem Desktop-environment für das Web.\n\nDrücken Sie "Nächste Seite" um die Einstellungen zu öffnen',
       welcome_page2_header: "Legen Sie eine Sprache fest",
       welcome_page2_body: "Die aktuelle Sprache ist deutsch.",
       welcome_page3_header: "Personifizieren",
@@ -82,9 +82,9 @@ export default {
     },
     fil_PH: {
       welcome_window_title: "Kamusta!",
-      welcome_page1_header: "Maligayang pagdating sa Pluto",
+      welcome_page1_header: "Maligayang pagdating sa ShadeOS",
       welcome_page1_body:
-        "Kamusta! Maligayang pagdating sa Pluto, ang bagong 'desktop environment' para sa web.\n\nI-click ang 'Sunod' para sa setup.",
+        "Kamusta! Maligayang pagdating sa ShadeOS, ang bagong 'desktop environment' para sa web.\n\nI-click ang 'Sunod' para sa setup.",
       welcome_page2_header: "Baguhin ang wika",
       welcome_page2_body: "Ang wikang pinili ay Filipino (Pilipinas).",
       welcome_page2_language_en_US: "Ingles (US)",
@@ -93,7 +93,7 @@ export default {
       welcome_page2_language_es_ES: "Español (Spain)",
       welcome_page2_language_pt_BR: "Portuguese (Brazil)",
       welcome_page2_language_fil_PH: "Filipino (Pilipinas)",
-      welcome_page3_header: "Baguhin ang hitsura ng Pluto",
+      welcome_page3_header: "Baguhin ang hitsura ng ShadeOS",
       welcome_page3_body: "Piliin ang iyong paboritong theme.",
       welcome_page4_header: "Dito nagtatapos ang setup!",
       welcome_page4_body:

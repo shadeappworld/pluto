@@ -41,7 +41,7 @@ export default {
       deviceType: "Device type",
       webProtocol: "Web protocol",
       webHost: "Web host",
-      plutoInfo: "Pluto Information",
+      PlutoInfo: "ShadeOS Information",
       storageUsed: "Storage used",
       coreVersion: "Core version",
       supportedVersions: "Supported versions",
@@ -84,7 +84,7 @@ export default {
       deviceType: "Gerätetyp",
       webProtocol: "Webprotokoll",
       webHost: "Web-Host",
-      plutoInfo: "Pluto-Informationen",
+      plutoInfo: "ShadeOS-Informationen",
       storageUsed: "Speicher verwendet",
       coreVersion: "Kernversion",
       supportedVersions: "Unterstützte Versionen",
@@ -123,7 +123,7 @@ export default {
       deviceType: "Uri ng device",
       webProtocol: "Ang web protocol",
       webHost: "Ang web host",
-      plutoInfo: "Tungkol sa Pluto",
+      plutoInfo: "Tungkol sa ShadeOS",
       storageUsed: "Storage na ginamit",
       coreVersion: "Bersyon ng core",
       supportedVersions: "Supported na mga bersyon",
@@ -571,7 +571,7 @@ export default {
 
             // Desktop app support
             if (userAgent.indexOf("pluto") > -1) {
-              browser.name = "Pluto Desktop";
+              browser.name = "ShadeOS Desktop";
               browser.version = userAgent.match(/pluto\/([\d.]+)/)[1];
             } else if (userAgent.indexOf("Firefox") > -1) {
               browser.name = "Firefox";

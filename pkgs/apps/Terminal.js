@@ -1,6 +1,6 @@
 export default {
   name: "Terminal",
-  description: "Terminal for Pluto",
+  description: "Terminal for ShadeOS",
   ver: 1, // Compatible with core v1
   type: "process",
   privileges: [
@@ -61,7 +61,7 @@ export default {
     let Terminal = new Html("div")
       .class("no-ui")
       .html(
-        /*html*/ `<div><div class="output">Welcome to Pluto's terminal!<br>Enter 'js' in the terminal if you want to switch to JavaScript.<br></div></div><div class="userInput"><div style="display:flex;" id="inputDiv"><span class="prompt">${Term.prompt}</span><div class="none input" contenteditable="true"></div></div></div>`
+        /*html*/ `<div><div class="output">Welcome to ShadeOS's terminal!<br>Enter 'js' in the terminal if you want to switch to JavaScript.<br></div></div><div class="userInput"><div style="display:flex;" id="inputDiv"><span class="prompt">${Term.prompt}</span><div class="none input" contenteditable="true"></div></div></div>`
       );
 
     Terminal.appendTo(wrapper);

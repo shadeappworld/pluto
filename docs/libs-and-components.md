@@ -147,7 +147,7 @@ Notify.show("Title", "Description", null, [
 You can also customize the notification sound:
 
 ```js
-Notify.show("Pluto Messenger", "Rick Astley is calling...", null, [
+Notify.show("ShadeOS Messenger", "Rick Astley is calling...", null, [
   {
     text: "Accept",
     type: "primary",
