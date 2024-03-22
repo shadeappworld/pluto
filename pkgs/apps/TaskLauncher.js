@@ -25,6 +25,13 @@ export default {
         Root.Lib.onEnd();
       },
     });
+
+    /* New Code for Scrollable Content on Phones */
+wrapper = MyWindow.window.querySelector(".win-content");
+wrapper.classList.add("row");
+wrapper.style.overflowY = 'auto'; // Enable vertical scrolling
+
+
     wrapper = MyWindow.window.querySelector(".win-content");
 
     wrapper.classList.add("row");
