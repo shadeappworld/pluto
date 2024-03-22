@@ -2123,7 +2123,26 @@ hr {
   overflow: auto;
   /* touch-action: pan-y !important; */
   overflow: auto;
+  
   -webkit-overflow-scrolling: touch;
+  /* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 16px; /* Increase the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* The track (progress bar) of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* The draggable scrolling handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 }
 
 .desktop .menu > .apps > .app {
