@@ -2121,7 +2121,7 @@ hr {
   gap: 4px;
   align-self: stretch;
   overflow: auto;
-  touch-action: pan-y !important;
+  /* touch-action: pan-y !important; */
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
